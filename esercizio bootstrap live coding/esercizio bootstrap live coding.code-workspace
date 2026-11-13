@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Esercizio Webinar Aulab/media progetto webina retrogaming"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "esercizio bootstrap live coding"
+	}
+}

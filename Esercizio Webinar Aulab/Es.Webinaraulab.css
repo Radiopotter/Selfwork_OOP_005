@@ -1,0 +1,19 @@
+
+
+    
+ body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-custom{
+    background-image: url("media-progetto-webina-retrogaming/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .btn-custom:hover{
+    background-color: var(--yellow);
+    color: black;
+    transition: 0.5s;
+}

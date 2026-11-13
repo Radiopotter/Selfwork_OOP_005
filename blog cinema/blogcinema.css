@@ -1,0 +1,51 @@
+
+h1 {
+    letter-spacing: 10px;
+    font-size: 4rem;
+}
+
+header {
+    background: linear-gradient(transparent, black),
+    url(immagini/immagineeserciziobootstrap1.jpg);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    background-color: black;
+    padding-top: 70px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-custom {
+    min-height: 300px;
+}
+
+.list-footer {
+    justify-content: start !important;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 670px) {
+
+    h1 {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+
+    .footer-custom {
+        min-height: auto;
+        text-align: center;
+    }
+
+    .list-footer {
+        justify-content: center !important;
+    }
+
+}
